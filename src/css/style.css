@@ -1,0 +1,124 @@
+html {
+  font-size: 62,5%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  min-height: 100vh;
+  max-width: 1440px;
+  background: url(../images/bg-desktop.svg) no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%); 
+  margin-left: 70px;  
+}
+
+ /* HEADER */
+.cabecalho {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+}
+
+.cabecalho .logo {
+ width: 100%;
+ height: 140px;
+}
+
+.cabecalho .logo img{
+  max-width: 210px; 
+}
+ 
+
+/* SECTION */
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+
+}
+
+.container .image-sobre {
+  max-width: 100%;
+  flex: 1; 
+  align-items: center;
+  
+ }
+
+.container .image-sobre img {
+   background-size: cover;
+} 
+
+.container .texto-sobre {
+  color:#ffffff;
+  max-width: 50%;
+  padding: 45px 155px 0 45px;
+  flex: 1;
+
+  }
+
+.container .texto-sobre .titulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  letter-spacing: 0.8px;
+  }
+
+.container .texto-sobre .descricao {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #ffffff;
+  line-height: 25px;
+  margin-bottom: 30px;
+  letter-spacing: 0.2px;
+}
+
+.texto-sobre .botao a{
+  background-color: #fff;
+  padding: 15px 65px;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 5rem;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(257, 40%, 49%);
+  transition: 0.3s ease-in-out;
+} 
+
+.texto-sobre .botao a.botao-registro:hover{
+  color: #ffffff;
+  border-color: hsl(300, 69%, 71%);
+  background-color: hsl(300, 69%, 71%);;
+}
+
+/* FOOTER */
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 140px;
+  margin-top: 10px;
+}
+
+.rodape .redes-sociais {
+ display: flex; 
+ justify-content: flex-end;
+}
+
+.rodape .redes-sociais a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 1.3rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%; 
+  width: 40px;
+  height: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.rodape .redes-sociais a:hover{
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);}
