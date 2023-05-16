@@ -1,65 +1,69 @@
-@media (max-width: 1150px){
+@media (max-width: 1150px) {
   .rodape {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: auto;
     padding: 40px 0;
-   }
+  }
 }
 
-@media(max-width: 950px){
+@media (max-width: 950px) {
   body {
     background: url(../images/bg-mobile.svg) no-repeat center top;
     background-size: contain;
-    background-color: hsl(257, 40%, 49%); 
-    margin:0 auto;
-    }
+    background-color: hsl(257, 40%, 49%);
+  }
+
+  main {
+    margin-left: 0;
+  }
 
   .cabecalho {
     padding-top: 30px;
-    
   }
-  .cabecalho .logo{
+  .cabecalho .logo {
     width: 80%;
     height: 100px;
     margin-left: 80px;
   }
 
-  .cabecalho .logo img{
-    max-width: 150px; 
+  .cabecalho .logo img {
+    max-width: 150px;
     display: block;
-   }
+  }
 
-  .container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .container .image-sobre img {
     max-width: 80%;
     display: block;
     margin: 0 auto;
-  } 
+  }
+
   .container .texto-sobre {
-   text-align: center;
-   padding: 25px 15px 20px 15px;
+    text-align: center;
+    padding: 25px 15px 20px 15px;
   }
 }
 
-@media (max-width: 525px){
-  .cabecalho .logo{
+@media (max-width: 525px) {
+  .cabecalho .logo {
     width: 80%;
     height: 100px;
     margin-left: 40px;
   }
+  
   .container .texto-sobre {
     max-width: 80%;
     padding: 50px 10px 15px 10px;
-    
-   }
-  .container .texto-sobre .titulo{
+  }
+
+  .container .texto-sobre .titulo {
     font-size: 1.4rem;
     margin-bottom: 15px;
   }
@@ -68,7 +72,8 @@
     font-size: 0.9rem;
     line-height: 20px;
   }
-  .texto-sobre .botao a{
+
+  .texto-sobre .botao a {
     padding: 10px 80px;
     font-size: 0.9rem;
   }
@@ -76,7 +81,8 @@
   .rodape {
     margin-top: 25px;
   }
-  .rodape .redes-sociais a{
+
+  .rodape .redes-sociais a {
     font-size: 0.8rem;
   }
 }

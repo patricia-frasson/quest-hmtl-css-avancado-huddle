@@ -2,14 +2,21 @@ html {
   font-size: 62,5%;
 }
 body {
+  background: url(../images/bg-desktop.svg) no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   min-height: 100vh;
   max-width: 1440px;
-  background: url(../images/bg-desktop.svg) no-repeat;
-  background-size: cover;
-  background-color: hsl(257, 40%, 49%); 
   margin-left: 70px;  
 }
 
@@ -28,22 +35,19 @@ body {
 .cabecalho .logo img{
   max-width: 210px; 
 }
- 
 
 /* SECTION */
 .container {
   display: flex;
   justify-content: center;
   max-width: 100%;
-
 }
 
 .container .image-sobre {
   max-width: 100%;
   flex: 1; 
   align-items: center;
-  
- }
+}
 
 .container .image-sobre img {
    background-size: cover;
@@ -54,8 +58,7 @@ body {
   max-width: 50%;
   padding: 45px 155px 0 45px;
   flex: 1;
-
-  }
+}
 
 .container .texto-sobre .titulo {
   font-family: 'Poppins', sans-serif;
@@ -63,7 +66,7 @@ body {
   margin-bottom: 25px;
   color: #ffffff;
   letter-spacing: 0.8px;
-  }
+}
 
 .container .texto-sobre .descricao {
   font-weight: 400;
@@ -78,7 +81,7 @@ body {
   background-color: #fff;
   padding: 15px 65px;
   font-size: 1.1rem;
-  box-shadow: 1px 1px 5px #000;
+  box-shadow:4px 4px 16px rgba(0, 0, 0, 0.4);
   border-radius: 5rem;
   font-family: 'Poppins', sans-serif;
   color: hsl(257, 40%, 49%);
@@ -88,7 +91,8 @@ body {
 .texto-sobre .botao a.botao-registro:hover{
   color: #ffffff;
   border-color: hsl(300, 69%, 71%);
-  background-color: hsl(300, 69%, 71%);;
+  background-color: hsl(300, 78%, 74%);
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -117,8 +121,10 @@ body {
   width: 40px;
   height: 40px;
   transition: 0.3s ease-in-out;
+  margin-bottom: 15px;
 }
 
-.rodape .redes-sociais a:hover{
-  color: hsl(300, 69%, 71%);
-  border-color: hsl(300, 69%, 71%);}
+.rodape .redes-sociais a:hover {
+  color: hsl(316, 87%, 64%);
+  border-color: hsl(316, 87%, 64%)
+}
